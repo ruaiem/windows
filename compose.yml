@@ -9,6 +9,7 @@ services:
       DISK_SIZE: "256G"
       DISK2_SIZE: "32G"
       DISK3_SIZE: "64G"
+      ARGUMENTS: "-device ich9-intel-hda -device hda-output"
 volumes:
   - ./example2:/storage2
   - ./example3:/storage3
